@@ -18,7 +18,7 @@ rust-version = "1.81"
 
 [dependencies]
 digest = "=0.11.0-pre.9"
-keccak = "=0.2.0-pre.0"
+keccak = { git = "https://github.com/lita-xyz/sponges" }
 
 [dev-dependencies]
 digest = { version = "=0.11.0-pre.9", features = ["dev"] }

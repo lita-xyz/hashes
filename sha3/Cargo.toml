@@ -18,7 +18,7 @@ rust-version = "1.81"
 
 [dependencies]
 digest = "=0.11.0-pre.9"
-keccak = { git = "https://github.com/lita-xyz/sponges" }
+keccak = { git = "https://github.com/lita-xyz/sponges", tag = "v0.9.0-alpha" }
 const-oid = "=0.10.0-rc.3"
 block-buffer = "=0.11.0-rc.3"
 hybrid-array = "=0.2.3"
